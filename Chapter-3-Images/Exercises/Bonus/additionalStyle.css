@@ -1,0 +1,65 @@
+#A, #B, #C , #D {
+    display: inline-block; /* Ensure elements are displayed in a horizontal line */
+    vertical-align: top; 
+}
+
+#A{
+    border: 3px solid #9439D7;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px rgb(255, 13, 0); /* Adjusted box shadow */
+}
+
+#B {
+  margin-right: 50px;
+  border: 3px solid #06FD06;
+  background-color: #fff;
+  box-shadow: inset 15px 15px 15px #000; /* Shadow on left and top sides */
+}
+
+#C {
+  position: relative; 
+  width: 200px; /* Adjust width */
+  height: 200px; /* Adjust height */
+  background-color: white;
+  border: 4px solid #F9971D; /* Add border for visibility */
+  border-radius: 20px; /* Add border radius for better appearance */
+  text-align: center; /* Center the content */
+  line-height: 200px; /* Vertical centering */
+  top: 10px;
+}
+
+/* First box */
+#C::before {
+    content: '';
+    position: absolute;
+    top: -15px; /* Adjust the position */
+    left: -15px; /* Adjust the position */
+    width: calc(100% + 30px); /* Adjust the width */
+    height: calc(100% + 30px); /* Adjust the height */
+    background-color: #0302FB; /* Change color */
+    z-index: -1; /* Ensure it's behind the main div */
+    border-radius: 20px; /* Match the border radius of the main div */
+}
+
+/* Second box */
+#C::after {
+    content: '';
+    position: absolute;
+    top: -45px; /* Adjust the position */
+    bottom: -50px;
+    left: -45px; /* Adjust the position */
+    right: -50px;
+    width: calc(100% + 60px); /* Adjust the width */
+    height: calc(100% + 60px); /* Adjust the height */
+    border: 15px solid #038004;
+    background-color: #F70506; /* Change color */
+    z-index: -2; /* Ensure it's behind the first box */
+    border-radius: 40px; /* Match the border radius of the main div */
+}
+
+#D {
+  margin-left: 50px;
+  border: 3px solid #B32323;
+  background-color: white;
+  text-shadow: -5px -7px rgba(0, 0, 0, 0.5); /* horizontal offset, vertical offset, blur radius, color */
+}
