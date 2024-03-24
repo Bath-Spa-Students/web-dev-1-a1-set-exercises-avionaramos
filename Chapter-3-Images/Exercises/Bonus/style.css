@@ -1,0 +1,17 @@
+body {
+    margin: 100px auto; /* top and bottom margin to 100px and horizontally centers the body */
+    width: max-content; /* Makes the body width expand */
+}
+
+div {
+    display: inline-block; /* Makes the div elements inline-blocks so they align horizontally */
+    font-family: sans-serif; /* Sets the font family */
+    font-size: 20px; /* Sets the font size */
+    margin: 25px; /* Sets the margin*/
+    line-height: 100px; /* Sets the line height*/
+    text-align: center; /* Centers the text horizontally within the div elements */
+    width: 200px; /* Sets the width of the div elements */
+    height: 200px; /* Sets the height of the div elements */
+    background-color: #fff; /* Sets the background color of the div elements */
+    padding: 10px; /* Sets the padding for the div elements */
+}
