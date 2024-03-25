@@ -1,0 +1,75 @@
+/* Styling for the body */
+body{
+    background-color: #B19470;
+}
+
+/* Styling for the heading */
+h1{
+    border: 1px solid #000000;
+    background-color:#F8FAE5 ;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+    color: #030303;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.image-container{
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.copyright{
+    font-size: 20px;
+}
+
+.content-1 img {
+    max-width: auto;
+    height: auto;
+    margin-top: 20px;
+    transition: filter 0.3s ease-in-out;
+    border: 4px solid #000000;
+}
+
+/* Hover effect for the first image */
+.content-1 img:hover {
+    filter: hue-rotate(90deg);
+}
+
+.content-2 img {
+    max-width: auto;
+    height: auto;
+    margin-top: 30px;
+    transition: filter 0.3s ease-in-out;
+    border: 4px solid #000000;
+}
+
+/* Hover effect for the second image */
+.content-2 img:hover {
+    filter: sepia(50%) grayscale(200%);
+}
+
+.content-3 img {
+    max-width: auto;
+    height: auto;
+    margin-top: 30px;
+    transition: filter 0.3s ease-in-out;
+    border: 4px solid #000000;
+}
+
+/* Hover effect for the third image */
+.content-3 img:hover {
+    filter: sepia(100%);
+}
+
+/* Styling for the owner information */
+.owner {
+    color: #000000;
+    border: 1.5px solid #000000; /* Creates a border only on the bottom with 1px width and solid black color */
+    box-shadow: 0 5px 9px rgba(255, 255, 255, 0.1);
+    padding: 15px; /* Adds some padding inside the border for spacing */
+    display: inline-block;
+    margin-top: 20px;
+
+}
