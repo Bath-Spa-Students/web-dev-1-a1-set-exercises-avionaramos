@@ -1,0 +1,113 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for the header */
+.header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #17072b; /* Background color */
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif; /* Font family for h1 */
+    font-weight: 700;
+    margin: 0;
+    font-size: 32px;
+    text-align:center ;
+    text-decoration: underline;
+
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Display items inline */
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none; /* Remove text decoration */
+}
+
+/* Style for the welcome section */
+#home{
+    margin-left: 20px;
+}
+#home h2{
+    text-decoration: underline; /* Add underline decoration */
+    font-size: 30px;
+}
+
+#home p{
+    font-size: 19px;
+    word-spacing: 1px ;
+}
+
+
+#welcome {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Style for the line-up section */
+.Line-up {
+    position: absolute;
+    top: 126px;
+    left: 810px;
+    width: 422px; /* Adjust width as needed */
+    height: 433px;
+    background-color: #172d67;
+    color: #fff;
+}
+
+.Line-up h2{
+    margin-left: 40px;
+}
+
+.Line-up .list {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.images{
+    position: absolute; /* Set position to absolute */
+    padding-left: 30px;
+    margin-top: 35px;
+    margin-right: 10px;
+    top: 200px;
+}
+
+/* Style for the footer section */
+footer {
+    background-color: #8c15e9;
+    margin-top: 4px;
+    height: 30px;
+    color: #fff;
+}
+
+.copyright{
+    padding-top: 9px;
+    align-items: center;
+    text-align: center; /* Center align text */
+
+}
