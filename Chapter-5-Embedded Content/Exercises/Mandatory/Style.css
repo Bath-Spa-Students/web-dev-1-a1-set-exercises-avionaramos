@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: block;
+    background-image: url(Images/background-img.jpeg); 
+    background-size: cover;
+}
+
+
+header {
+    position: absolute; /* Position the header absolutely */
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1; /* Ensure it's above the video */
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.timelapse {
+    position: relative;
+
+}
+
+.timelapse video {
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+}
+footer{
+    position: absolute; /* Position the header and footer absolutely */
+    width: 100%;
+    text-align: center;
+    z-index: 1; 
+    bottom: 60px;
+    color: white;
+}
+
+  
